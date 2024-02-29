@@ -1,0 +1,44 @@
+.contact
+{
+    height: 100vh;
+}
+
+
+
+
+.btn
+{
+    background-color:  #1abc9c;
+    padding: 8px;
+    color: white;
+    border-radius: 8px ;
+    border: none;
+}
+
+.icon
+{
+    position: relative;
+    margin: 8px 0px;
+}
+.icon::before
+{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    border-bottom: 4px solid #2c3e50 ;
+    height: 4px;
+    width: 85px;
+    
+}
+.icon::after
+{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 52%;
+    border-bottom: 4px solid #2c3e50 ;
+    height: 4px;
+    width: 85px;
+    
+}
